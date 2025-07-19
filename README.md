@@ -8,9 +8,9 @@ This project creates an EC2 instance on AWS using Ansible, roles, variables, and
 
 ```bash
 ansible-playbook -i inventory.ini create-aws-ec2 --ask-vault-pass
+```
 
-
-📁 Project Structure
+## 📁 Project Structure
 
 aws-ec2/
 ├── create-aws-ec2         # Main playbook
@@ -23,8 +23,8 @@ aws-ec2/
 ├── vault.pass             # Vault password file (excluded via .gitignore)
 └── .gitignore             # Git ignore rules
 
-🔒 Secrets
+## 🔒 Secrets
 Sensitive values like ec2_access_key and ec2_secret_key are stored securely using Ansible Vault.
-
-✅ Example Output
+ 
+## ✅ Example Output
 After running the playbook, an EC2 instance will be created in your AWS account with the configured parameters.
