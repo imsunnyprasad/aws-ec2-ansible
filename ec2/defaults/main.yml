@@ -1,0 +1,5 @@
+---
+# defaults file for ec2
+  type: t2.micro
+  region: us-east-1
+  image_id: ami-04b70fa74e45c3917  
