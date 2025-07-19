@@ -10,7 +10,7 @@ This project creates an EC2 instance on AWS using Ansible, roles, variables, and
 ansible-playbook -i inventory.ini create-aws-ec2 --ask-vault-pass
 ```
 
-Project Structure
+## Project Structure
 
     create-aws-ec2: Main playbook
 
